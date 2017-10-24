@@ -9,6 +9,6 @@ package in.spiph.client.localservercom;
  *
  * @author Bennett.DenBleyker, Gabriel.Maxfield
  */
-public interface IServerCom {
-    
+public interface ILocalCom {
+    boolean authenticate();
 }

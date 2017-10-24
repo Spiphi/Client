@@ -5,10 +5,13 @@
  */
 package in.spiph.client.filemanagement;
 
+import java.io.File;
+
 /**
  *
  * @author Bennett.DenBleyker, Gabriel.Maxfield
  */
-public interface IOSInterface {
-    
+public interface IFileManager {
+    public void saveFile(String path, File f);
+    public File getFile(String path);
 }
